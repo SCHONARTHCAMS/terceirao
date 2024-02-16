@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 :root{
     --rosa: #DF2892;
     --roxo: #CC39DB;
-    --roxoclaro: #8B6FE0;
-    --roxoescuro: #A04FDB;
+    --roxo-claro: #8B6FE0;
+    --roxo-escuro: #BD93DB;
+    --botao-inativo: rgba(160, 79, 219, 0.5);
+    --botao-ativo: rgba(223, 40, 146, 1);
 }
