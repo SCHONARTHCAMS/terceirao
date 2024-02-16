@@ -5,7 +5,13 @@
     --roxo: #CC39DB;
     --roxo-claro: #8B6FE0;
     --roxo-escuro: #BD93DB;
+    --branco: #FFFFFF;
     --botao-inativo: rgba(160, 79, 219, 0.5);
     --botao-ativo: rgba(223, 40, 146, 1);
     
+}
+body{
+    background-color: var(--roxo-escuro);
+    color: var(--branco);
+    font-family: 'Embed code', 'Sans-Serif';
 }
