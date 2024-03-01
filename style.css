@@ -32,3 +32,8 @@ body{
 .titulo-principal span{
     color: var(--verde);
 }
+.botao{
+    font-family: 'Embed code' , 'Sans-Serif';
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+}
