@@ -74,7 +74,7 @@ body{
 }
 .aba-conteudo-titulo-secundario{
     text-align: center;
-    color: var(--rosa);
+    color: var(--roxo);
     text-transform: uppercase;
 }
 @media screen and (min-width: 768px){
