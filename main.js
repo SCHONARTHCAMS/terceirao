@@ -12,7 +12,12 @@ for (let i = 0; i < botoes.length; i++){
     }
 }
 const contadores = document.querySelectorAll(".contador");
-const tempoObjetivo1 = new Date("2025-01-10")
+const tempoObjetivo1 = new Date("2025-01-10T00:00:00");
+function calculaTempo(tempoObjetivo){
 let tempoAtual = new Date();
-
 contadores[0].textContent = tempoObjetivo1 - tempoAtual;
+let segundos = Math.floor(tempoFinal / 1000);
+let minuto  = Math.floor(segundos / 60);
+let minuto  = Math.floor(minuto / 60);
+let minuto  = Math.floor(horas / 24);
+}
