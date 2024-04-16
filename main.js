@@ -18,6 +18,6 @@ let tempoAtual = new Date();
 contadores[0].textContent = tempoObjetivo1 - tempoAtual;
 let segundos = Math.floor(tempoFinal / 1000);
 let minuto  = Math.floor(segundos / 60);
-let minuto  = Math.floor(minuto / 60);
-let minuto  = Math.floor(horas / 24);
+let hora  = Math.floor(minuto / 60);
+let dia  = Math.floor(horas / 24);
 }
