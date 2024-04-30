@@ -1,9 +1,9 @@
 const botoes = document.querySelectorAll (".botao");
 const textos = document.querySelectorAll (".aba-conteudo");
 
-for (let i = 0; i < botoes.length; i++){
-    botoes[i].onclick = function (){
-        for (let j = 0; j < botoes.length; j++){
+for (let i = 0; i<botoes.length; i++){
+    botoes [i].onclick = function(){
+        for (let j=0; j<botoes.length; j++){
             botoes[j].classList.remove("ativo");
             textos[j].classList.remove("ativo");
         }
@@ -11,8 +11,12 @@ for (let i = 0; i < botoes.length; i++){
         textos[i].classList.add("ativo");
     }
 }
+
 const contadores = document.querySelectorAll(".contador");
 const tempoObjetivo1 = new Date("2025-01-10T00:00:00");
+const tempoObjetivo1 = new Date("2025-01-10T00:00:00");
+const tempoObjetivo1 = new Date("2025-12-13T00:00:00");
+const tempoObjetivo1 = new Date("2025-05-30T00:00:00");
 function calculaTempo(tempoObjetivo){
 let tempoAtual = new Date();
 contadores[0].textContent = tempoObjetivo1 - tempoAtual;
