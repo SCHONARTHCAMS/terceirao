@@ -19,12 +19,12 @@ const tempoObjetivo3 = new Date("2025-12-13T23:59:59");
 const tempoObjetivo4 = new Date("2025-05-30T23:59:59");
 const tempoObjetivo5 = new Date("2025-02-23T23:59:59");
 
-const tempo = [
+const tempos = [
     tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4, tempoObjetivo5
 ]
 
 for (let i=0; i< contadores.length; i++){
-    contadores[i].textContent = calculaTempo(tempo[i]);
+    contadores[i].textContent = calculaTempo(tempos[i]);
 }
 contadores[0].textContent = calculaTempo(tempoObjetivo1);
 
